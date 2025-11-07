@@ -12,7 +12,9 @@ The lab consists of the following core network segments and components:
 - **Applications:** Ubuntu server running enterprise applications including Docker, Kubernetes, and NGINX.
 - **Attacker Machine:** Kali Linux with Metasploit and other offensive tools to simulate insider and external threats.
 
-![Architecture Diagram](.)
+##Architecture DIagram
+<img width="1174" height="499" alt="image" src="https://github.com/user-attachments/assets/abfa2004-27e9-4bde-9a03-dfbaef809cc1" />
+
 
 ## Technologies Used
 - VMware Workstation Pro for virtualization
