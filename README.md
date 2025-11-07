@@ -12,7 +12,7 @@ The lab consists of the following core network segments and components:
 - **Applications:** Ubuntu server running enterprise applications including Docker, Kubernetes, and NGINX.
 - **Attacker Machine:** Kali Linux with Metasploit and other offensive tools to simulate insider and external threats.
 
-![Architecture Diagram](./images/splunk_siem_home_lab_diagram.jpg)
+![Architecture Diagram](.)
 
 ## Technologies Used
 - VMware Workstation Pro for virtualization
