@@ -90,7 +90,7 @@ Each VM is connected to one or more of these segmented networks based on its rol
 Contributions and improvements are welcome! Please open issues or submit pull requests.
 
 ## License  
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ---
 
