@@ -60,10 +60,15 @@ Set up the foundational segmentation and routing environment for a cybersecurity
 
 ## Screenshots
 
-- pfSense interface assignments  
-- Hostname/DNS setup  
-- Firewall rules screen  
+- pfSense interface assignments
+<img width="860" height="121" alt="Screenshot 2025-11-08 073113" src="https://github.com/user-attachments/assets/c0835207-b32a-4a60-bac1-951730796dd7" />
+
+- Firewall rules screen
+<img width="1341" height="634" alt="Screenshot 2025-11-08 101715" src="https://github.com/user-attachments/assets/ddde4f36-0d92-46bb-8909-397f8e9cafe1" />
+
+  
 - Ubuntu connectivity test (ping results)
+<img width="491" height="103" alt="image" src="https://github.com/user-attachments/assets/3be69363-e3f6-4317-a07b-7da9e6ea5356" />
 
 
 
