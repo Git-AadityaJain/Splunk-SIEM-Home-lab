@@ -330,7 +330,7 @@ Suricata: Ready for installation
 
 ### Splunk Enterprise Admin Account
 - **Username:** admin
-- **Password:** Lab@Splunk2025!
+- **Password:** Z********9
 - **Web UI:** http://192.168.20.11:8000 (when available)
 - **CLI Access:** `/opt/splunk/bin/splunk` (operational)
 
@@ -344,66 +344,6 @@ Suricata: Ready for installation
 - **SSH:** Available
 - **Splunk User:** splunk (for Splunk processes)
 - **Admin User:** sudo access available
-
----
-
-## Day 3+ Action Items
-
-### High Priority
-
-1. **Troubleshoot Splunk Web UI**
-   - Allocate more VM resources (RAM/CPU)
-   - Or configure Splunk with `-nologin` flag
-   - Access via CLI tools in meantime
-
-2. **Install & Configure Suricata**
-   ```
-   pkg install -y suricata
-   service suricata start
-   ```
-
-3. **Configure Log Forwarding**
-   - Suricata → Splunk
-   - pfSense logs → Splunk
-   - Setup inputs.conf for Splunk ingestion
-
-4. **Test Data Ingestion**
-   - Generate network traffic
-   - Verify Suricata alerts appear in Splunk
-   - Create basic dashboards
-
-### Medium Priority
-
-5. **Deploy Attack VM (Kali Linux)**
-   - Network segmentation (DMZ)
-   - SSH access from host only
-
-6. **Create Detection Rules**
-   - Implement custom Suricata rules
-   - Basic IDS alert scenarios
-
-7. **Build Splunk Dashboards**
-   - Network traffic summary
-   - Security event timeline
-   - Intrusion attempt tracking
-
-### Low Priority (Future Sessions)
-
-8. **Advanced SIEM Configuration**
-   - Log correlation
-   - Threat intelligence integration
-   - Custom visualizations
-
-9. **Incident Response Playbook**
-   - Alert escalation procedures
-   - Automated response rules
-
-10. **Lab Documentation**
-    - Network diagram refinement
-    - Runbook creation
-    - Troubleshooting guide
-
----
 
 ## Files & Resources
 
@@ -581,24 +521,6 @@ Analyst Dashboard
 
 ---
 
-## Appendix B: Troubleshooting Guide
-
-### Splunk Won't Start
-```
-# Check logs
-sudo tail -f /opt/splunk/var/log/splunk/splunkd.log
-
-# Check disk space
-df -h /opt/splunk/
-
-# Restart
-sudo systemctl restart splunk
-
-# Nuclear option (last resort)
-sudo /opt/splunk/bin/splunk stop
-sudo /opt/splunk/bin/splunk start --accept-license --answer-yes
-```
-
 ### Network Issues
 ```
 # Check routing
@@ -623,3 +545,4 @@ sudo chown -R splunk:splunk /opt/splunk
 # Fix log permissions
 sudo chmod 755 /opt/splunk/var/log/splunk
 ```
+End Of Day 2
